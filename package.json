@@ -15,6 +15,7 @@
 	"scripts": {
 		"start": "node server.js",
 		"dev": "nodemon server.js",
-		"clean": "rm */.gitkeep"
+		"clean": "rm */.gitkeep",
+    "env": "cp default.env .env"
 	}
 }
